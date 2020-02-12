@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="help_how_record_audio">
+        How to record an audio file?
+    </string>
+
+    <string name="help_record_audio">
+        1.	Go to the homepage.\n
+        2.	Make sure that the toggle is showing a microphone.\n
+        3.	Press the red microphone button at the bottom middle of the page.\n
+        4.	The timer will start increasing.\n
+        5.	Press stop once you are done recording.\n
+        6.	Audio record has been created with default name: MyRecording_#.mp4
+    </string>
+
+    <string name="help_how_record_video">
+        How to record a video file?
+    </string>
+
+    <string name="help_record_video">
+        1.\tGo to the homepage.\n
+        2.\tMake sure that the toggle is showing a microphone.\n
+        3.\tPress the red video button at the bottom middle of the page.\n
+        4.\tThe timer will start increasing.\n
+        5.\tPress stop once you are done recording.\n
+        6.\tAudio record has been created with default name: MyRecording_#.mp4
+    </string>
+
+    <string name="help_how_pause">
+        How to “Pause” audio that is recording?
+    </string>
+    
+    <string name="help_pause">
+        1.	Go to the homepage.\n
+        2.	Make sure that the toggle is showing a microphone.\n
+        3.	Press the red microphone button at the bottom middle of the page.\n
+        4.	The timer will start increasing.\n
+        5.	Press the grey pause button in the bottom left of page.
+    </string>
+
+    <string name="help_how_create_folder">
+        How to create a folder?
+    </string>
+
+    <string name="help_create_folder">
+        1.	Go to “Folders” tab.\n
+        2.	Click the red circular button with a + inside of it at the bottom right of the page.\n
+        3.	It will open up a dialog with title ‘Add Folder’.\n
+        4.	Click “OK" after typing the name of the folder you wish to create.\n
+        5.  Folder is now created.
+    </string>
+
+    <string name="help_how_rename_file">
+        How to rename an audio/video file?
+    </string>
+
+    <string name="help_rename_file">
+        1.	Go to “Folders” tab.\n
+        2.	Go into the folder where you put the file.\n
+            • Note* if you did not put your audio/video file into a folder it will be located in the “All” folder.\n
+        3.	Press and Hold onto the selected audio/video file.\n
+        4.	A pop up will appear.\n
+        5.	Select “Rename File".\n
+        6.	Another pop up appears called Rename File.\n
+        7.	Input the name you want to change the audio/video file to within the textfield.\n
+        8.	Select “OK".
+    </string>
+
+    <string name="help_how_rename_folder">
+        How to rename a folder?
+    </string>
+
+    <string name="help_rename_folder">
+        1.	Go to “Folders” tab.\n
+        2.	Press and Hold onto the folder you want to rename.\n
+        3.	A pop up will appear.\n
+        4.	Select “Rename Folder".\n
+        5.	Another pop up appears called Rename Folder.\n
+        6.	Input the name you want to change the folder to within the textfield.\n
+        7.	Select “OK".
+    </string>
+
+    <string name="help_how_move_file">
+        How to move audio/video files to another folder?
+    </string>
+
+    <string name="help_move_file">
+        1.	Go to “Folders” tab.\n
+        2.	Go into the folder where you put the file.\n
+            • Note* if you did not put your audio/video file into a folder it will be located in the “All”.\n
+        3.	Press and Hold onto the selected audio/video file.\n
+        4.	A pop up will appear, it will have a list of all existing folders.\n
+        5.	Select the name of the folder you want to move it to.
+    </string>
+
+    <string name="help_how_add_note">
+        How to add/edit a “Note” to an audio/video file?
+    </string>
+
+    <string name="help_add_note">
+        1.\tGo to “Folders” tab.\n
+        2.\tGo into the folder where you put the file.\n
+        \t\t- Note: if you did not put your audio/video file into a folder it will be located in the “All” folder.\n
+        3.\tPress and Hold onto the selected audio/video file.\n
+        4.\tA pop up will appear.\n
+        5.\tSelect “Add/Edit Note".\n
+        6.\tA new pop up will appear called Add/Edit Note.\n
+        7.\tThe text field will be blank or will show the previous note.\n
+        8.\tType in whatever you would like.\n
+        9.\tClick the “OK" button.
+    </string>
+
+    <string name="help_how_view_note">
+        How to view a “Note” to an audio/video file?
+    </string>
+
+    <string name="help_view_note">
+        1.	Go to “Folders” tab.\n
+        2.	Go into the folder where you put the file.\n
+            • Note* if you did not put your audio/video file into a folder it will be located in the “All” folder.\n
+        3.	Tap on the file you want to view the note for.\n
+        4.	A pop up to play the file will appear.\n
+        5.  It will also have note on the bottom under the title "Note".
+    </string>
+
+</resources>

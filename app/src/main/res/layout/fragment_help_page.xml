@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="7dp"
+            android:orientation="vertical">
+
+            <!--how to record audio-->
+            <TextView
+                android:id="@+id/help_how_record_audio"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/help_how_record_audio"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help_record_audio"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="14sp"
+                android:text="@string/help_record_audio"/>
+
+            <!--how to record video-->
+            <TextView
+                android:id="@+id/help_how_record_video"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/help_how_record_video"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help_record_video"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="14sp"
+                android:text="@string/help_record_video"/>
+
+            <!--how to pause recording-->
+            <TextView
+                android:id="@+id/help_how_pause"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/help_how_pause"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help_pause"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="14sp"
+                android:text="@string/help_pause"/>
+
+            <!--how to create folder-->
+            <TextView
+                android:id="@+id/help_how_create_folder"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/help_how_create_folder"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help_create_folder"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="14sp"
+                android:text="@string/help_create_folder"/>
+
+
+            <TextView
+                android:id="@+id/help_how_rename_folder"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/help_how_rename_folder"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help_rename_folder"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="14sp"
+                android:text="@string/help_rename_folder"/>
+
+            <TextView
+                android:id="@+id/help_how_rename_file"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/help_how_rename_file"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help_rename_file"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="14sp"
+                android:text="@string/help_rename_file"/>
+
+            <TextView
+                android:id="@+id/help_how_move_file"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/help_how_move_file"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help_move_file"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="14sp"
+                android:text="@string/help_move_file"/>
+
+            <TextView
+                android:id="@+id/help_how_add_note"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/help_how_add_note"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help_add_note"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="14sp"
+                android:text="@string/help_add_note"/>
+
+            <TextView
+                android:id="@+id/help_how_view_note"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:paddingEnd="8dp"
+                android:paddingStart="8dp"
+                android:text="@string/help_how_view_note"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/help_view_note"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:textSize="14sp"
+                android:text="@string/help_view_note"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
